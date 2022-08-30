@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table thead{
+  background-color: #61dafb;
+  color: white;
+}
+table tbody{
+  border: 1x solid #87c9db;
+}
+table tbody tr:nth-child(odd){
+  background-color: #87c9db;
+}
+table tbody tr:nth-child(even){
+  background-color: white;
+}
+
+
